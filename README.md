@@ -1,4 +1,4 @@
-# Data-Mining-Project - Network Traffic Analysis
+# Data Mining Project - Network Traffic Analysis
 
 This repository contains the implementation and analysis of a Data Mining project focused on network traffic data, including exploratory data analysis, dataset reduction techniques, and supervised machine learning models for classification.
 
@@ -89,7 +89,8 @@ Two classifiers are used:
 
 - Used with class_weight="balanced"
 
-
+### Note:
+The **main.ipynb** notebook also includes visualizations, plots, and representative examples from all project tasks (EDA, sampling, clustering, and classification), providing an interactive overview of the entire workflow and results.
 
 ### 📈 Evaluation
 
@@ -103,14 +104,14 @@ Metrics used:
 
 Key findings:
 
-1) Stratified dataset provides the most reliable results
+- Stratified dataset provides the most reliable results
 
-2) Birch representatives offer a strong trade-off between compression and accuracy
+- Birch representatives offer a strong trade-off between compression and accuracy
 
-3) MiniBatch K-Means struggles to preserve minority classes, especially for Traffic Type
+- MiniBatch K-Means struggles to preserve minority classes, especially for Traffic Type
 
-4) MLP generally outperforms SVM on complex multi-class tasks
+- MLP generally outperforms SVM on complex multi-class tasks
 
-5) SVM performs competitively on the binary Label task
+-  SVM performs competitively on the binary Label task
 
 #### All results and interpretations are documented in report.pdf.
