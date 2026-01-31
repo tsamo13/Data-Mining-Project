@@ -6,14 +6,20 @@ The project examines how different data reduction strategies affect the performa
 
 ## 📊 Dataset
 
+
+The dataset used in this project is the **TII-SSRC-23 network traffic dataset**, publicly available on Kaggle:
+
+🔗 https://www.kaggle.com/datasets/daniaherzalla/tii-ssrc-23
+
+
 The original dataset is a large-scale network traffic dataset that cannot be loaded entirely into memory.
 To handle this, the data is processed in chunks and stored in Parquet format for efficiency.
 
-Key target variables:
+#### Key target variables:
 
-Label: Binary classification (Benign / Malicious)
+**Label**: Binary classification (Benign / Malicious)
 
-Traffic Type: Multi-class traffic categorization
+**Traffic Type**: Multi-class traffic categorization
 
 ### 🧪 Task 1 – Exploratory Data Analysis (EDA)
 
